@@ -16,13 +16,13 @@ export default function App() {
   const [selectedPreset, setSelectedPreset] = useState(targetPresets[3]); // เริ่มที่ L (90,000)
   
   // ล้างค่า Actual เป็น 0 ทั้งหมดเพื่อให้คุณกรอกเอง
-  const [products, setProducts] = useState([
-    { id: 'p1', name: '339618 hof pro hmb', actual: 0 },
+ const [products, setProducts] = useState([
+    { id: 'p1', name: '339618 Hof pro hmb', actual: 0 },
     { id: 'p2', name: '332647 Effer zinc+vit c', actual: 0 },
     { id: 'p3', name: '338854 FN goodnight', actual: 0 },
-    { id: 'p4', name: '344656 Fitaday mag', actual: 0 },
+    { id: 'p4', name: '344656 FN magnesium', actual: 0 },
     { id: 'p5', name: '344564 FN multi silver', actual: 0 },
-    { id: 'p6', name: '311928 Penlol', actual: 0 },
+    { id: 'p6', name: '311928 MW Penlol', actual: 0 },
   ]);
 
   const handleActualUpdate = (id: string, value: string) => {
